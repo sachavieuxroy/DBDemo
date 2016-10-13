@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dbdemo.MainActivity" >
+
+    <Button
+        android:id="@+id/ShowCategoryListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="LesCategorieClick"
+        android:text="@string/les_categorie" />
+
+    <Button
+        android:id="@+id/ShowArticleListForCategoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="LesArticlesPourCategorieClick"
+        android:text="@string/les_articles" />
+
+    <Button
+        android:text="Recup Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recupRecord"
+        android:onClick="recuprecordclick" />
+
+    <Button
+        android:text="Insert Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/InsertButton"
+        android:onClick="insertbuttonclick" />
+
+    <Button
+        android:text="Delete Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/DeleteButton"
+        android:onClick="deletebuttonclick" />
+
+    <Button
+        android:text="Update Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UpdateButton"
+        android:onClick="updatebuttonclick" />
+
+</LinearLayout>

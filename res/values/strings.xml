@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DBDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="les_categorie">LES CATEGORIES</string>
+    <string name="creer">Creer</string>
+    <string name="ajoute_un_categorie">Ajoute une Categorie</string>
+    <string name="nom_de_la_categorie">NOM DE LA CATEGORIE</string>
+    <string name="ajoute">AJOUTE UNE CATEGORIE</string>
+    <string name="entrer_le_nom_ici">ENTRER LE NOM ICI</string>
+    <string name="sauvegarder">SAUVEGARDER</string>
+    <string name="annule">ANNULE</string>
+    <string name="modifier_une_categorie">Modifier une Categorie</string>
+    <string name="les_articles">LES ARTICLES</string>
+    <string name="listmode">LISTMODE</string>
+    <string name="les_category_des_article">LES CATEGORIE DES ARTICLES</string>
+    <string name="les_article_pour_une_categorie">LES ARTICLE POUR UNE CATEGORIE</string>
+    <string name="nom_de_la_category">NOM DE LA CATEGORY</string>
+    <string name="ajoute_un_article">AJOUTE UN ARTICLE</string>
+    <string name="nom_de_larticle">NOM DE L\'ARTICLE</string>
+    <string name="modifier_un_article">Modifier un Article</string>
+    <string name="ajoute_une_category">AJOUTE UNE CATEGORY</string>
+    <string name="ajoute_une_categorie">AJOUTE UNE CATEGORIE</string>
+    <string name="delete">DELETE</string>
+
+</resources>

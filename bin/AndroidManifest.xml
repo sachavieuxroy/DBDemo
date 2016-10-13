@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dbdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:name="com.example.dbdemo.PrincipalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LesCategorieActivity"  android:label="@string/les_categorie"/>
+        <activity android:name=".LesCategorieAddActivity"  android:label="@string/ajoute_un_categorie"/>
+        <activity android:name=".LesCategorieModifyActivity"  android:label="@string/modifier_une_categorie"/>
+        <activity android:name="com.example.dbdemo.LesArticlePourCategorieActivity"  android:label="@string/les_article_pour_une_categorie"/>
+        <activity android:name=".LesArticleAddActivity"  android:label="@string/ajoute_un_article"/>
+        <activity android:name=".LesArticleModifyActivity"  android:label="@string/modifier_un_article"/>
+        </application>
+
+</manifest>
